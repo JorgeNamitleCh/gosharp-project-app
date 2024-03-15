@@ -8,12 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* gosharpProjectAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* gosharpProjectAppTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-gosharpProjectApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-gosharpProjectApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-gosharpProjectApp-gosharpProjectAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-gosharpProjectApp-gosharpProjectAppTests.a */; };
+		7578B66AEE5D79C83C9B5E31 /* libPods-gosharpProjectApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D45C941132E8063579E905 /* libPods-gosharpProjectApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F17E16CC2BA42F5E001C057F /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16B92BA42F5E001C057F /* FontAwesome6_Regular.ttf */; };
+		F17E16CD2BA42F5E001C057F /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16BA2BA42F5E001C057F /* FontAwesome5_Solid.ttf */; };
+		F17E16CE2BA42F5E001C057F /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16BB2BA42F5E001C057F /* FontAwesome6_Brands.ttf */; };
+		F17E16CF2BA42F5E001C057F /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16BC2BA42F5E001C057F /* FontAwesome6_Solid.ttf */; };
+		F17E16D02BA42F5E001C057F /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16BD2BA42F5E001C057F /* Ionicons.ttf */; };
+		F17E16D12BA42F5E001C057F /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16BE2BA42F5E001C057F /* Zocial.ttf */; };
+		F17E16D22BA42F5E001C057F /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16BF2BA42F5E001C057F /* MaterialIcons.ttf */; };
+		F17E16D32BA42F5E001C057F /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16C02BA42F5E001C057F /* FontAwesome5_Regular.ttf */; };
+		F17E16D42BA42F5E001C057F /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16C12BA42F5E001C057F /* Foundation.ttf */; };
+		F17E16D52BA42F5E001C057F /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16C22BA42F5E001C057F /* MaterialCommunityIcons.ttf */; };
+		F17E16D62BA42F5E001C057F /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16C32BA42F5E001C057F /* Feather.ttf */; };
+		F17E16D72BA42F5E001C057F /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16C42BA42F5E001C057F /* Entypo.ttf */; };
+		F17E16D82BA42F5E001C057F /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16C52BA42F5E001C057F /* EvilIcons.ttf */; };
+		F17E16D92BA42F5E001C057F /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16C62BA42F5E001C057F /* Octicons.ttf */; };
+		F17E16DA2BA42F5E001C057F /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16C72BA42F5E001C057F /* SimpleLineIcons.ttf */; };
+		F17E16DB2BA42F5E001C057F /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16C82BA42F5E001C057F /* FontAwesome.ttf */; };
+		F17E16DC2BA42F5E001C057F /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16C92BA42F5E001C057F /* FontAwesome5_Brands.ttf */; };
+		F17E16DD2BA42F5E001C057F /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16CA2BA42F5E001C057F /* Fontisto.ttf */; };
+		F17E16DE2BA42F5E001C057F /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F17E16CB2BA42F5E001C057F /* AntDesign.ttf */; };
+		F3D98557E764B99D5A721BE8 /* libPods-gosharpProjectApp-gosharpProjectAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E2345EB7D2925E29906ADD /* libPods-gosharpProjectApp-gosharpProjectAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +55,33 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = gosharpProjectApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = gosharpProjectApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = gosharpProjectApp/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-gosharpProjectApp-gosharpProjectAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gosharpProjectApp-gosharpProjectAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-gosharpProjectApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gosharpProjectApp.debug.xcconfig"; path = "Target Support Files/Pods-gosharpProjectApp/Pods-gosharpProjectApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-gosharpProjectApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gosharpProjectApp.release.xcconfig"; path = "Target Support Files/Pods-gosharpProjectApp/Pods-gosharpProjectApp.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-gosharpProjectApp-gosharpProjectAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gosharpProjectApp-gosharpProjectAppTests.debug.xcconfig"; path = "Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-gosharpProjectApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gosharpProjectApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D45C941132E8063579E905 /* libPods-gosharpProjectApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gosharpProjectApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3511AB87D51AB06F95DE50A7 /* Pods-gosharpProjectApp-gosharpProjectAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gosharpProjectApp-gosharpProjectAppTests.release.xcconfig"; path = "Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5272BBA09EFB8194FB2925D6 /* Pods-gosharpProjectApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gosharpProjectApp.debug.xcconfig"; path = "Target Support Files/Pods-gosharpProjectApp/Pods-gosharpProjectApp.debug.xcconfig"; sourceTree = "<group>"; };
+		60E2345EB7D2925E29906ADD /* libPods-gosharpProjectApp-gosharpProjectAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gosharpProjectApp-gosharpProjectAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = gosharpProjectApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-gosharpProjectApp-gosharpProjectAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gosharpProjectApp-gosharpProjectAppTests.release.xcconfig"; path = "Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A949153B0E011CCD11CCFB56 /* Pods-gosharpProjectApp-gosharpProjectAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gosharpProjectApp-gosharpProjectAppTests.debug.xcconfig"; path = "Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E41D4E98C20D8B3C720778EA /* Pods-gosharpProjectApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gosharpProjectApp.release.xcconfig"; path = "Target Support Files/Pods-gosharpProjectApp/Pods-gosharpProjectApp.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F17E16B92BA42F5E001C057F /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Regular.ttf; path = ../src/assets/fonts/FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		F17E16BA2BA42F5E001C057F /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = ../src/assets/fonts/FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		F17E16BB2BA42F5E001C057F /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Brands.ttf; path = ../src/assets/fonts/FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		F17E16BC2BA42F5E001C057F /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Solid.ttf; path = ../src/assets/fonts/FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		F17E16BD2BA42F5E001C057F /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = ../src/assets/fonts/Ionicons.ttf; sourceTree = "<group>"; };
+		F17E16BE2BA42F5E001C057F /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = ../src/assets/fonts/Zocial.ttf; sourceTree = "<group>"; };
+		F17E16BF2BA42F5E001C057F /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = ../src/assets/fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
+		F17E16C02BA42F5E001C057F /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = ../src/assets/fonts/FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		F17E16C12BA42F5E001C057F /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = ../src/assets/fonts/Foundation.ttf; sourceTree = "<group>"; };
+		F17E16C22BA42F5E001C057F /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = ../src/assets/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		F17E16C32BA42F5E001C057F /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = ../src/assets/fonts/Feather.ttf; sourceTree = "<group>"; };
+		F17E16C42BA42F5E001C057F /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = ../src/assets/fonts/Entypo.ttf; sourceTree = "<group>"; };
+		F17E16C52BA42F5E001C057F /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = ../src/assets/fonts/EvilIcons.ttf; sourceTree = "<group>"; };
+		F17E16C62BA42F5E001C057F /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = ../src/assets/fonts/Octicons.ttf; sourceTree = "<group>"; };
+		F17E16C72BA42F5E001C057F /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = ../src/assets/fonts/SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		F17E16C82BA42F5E001C057F /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = ../src/assets/fonts/FontAwesome.ttf; sourceTree = "<group>"; };
+		F17E16C92BA42F5E001C057F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = ../src/assets/fonts/FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		F17E16CA2BA42F5E001C057F /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = ../src/assets/fonts/Fontisto.ttf; sourceTree = "<group>"; };
+		F17E16CB2BA42F5E001C057F /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = ../src/assets/fonts/AntDesign.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-gosharpProjectApp-gosharpProjectAppTests.a in Frameworks */,
+				F3D98557E764B99D5A721BE8 /* libPods-gosharpProjectApp-gosharpProjectAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-gosharpProjectApp.a in Frameworks */,
+				7578B66AEE5D79C83C9B5E31 /* libPods-gosharpProjectApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-gosharpProjectApp.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-gosharpProjectApp-gosharpProjectAppTests.a */,
+				21D45C941132E8063579E905 /* libPods-gosharpProjectApp.a */,
+				60E2345EB7D2925E29906ADD /* libPods-gosharpProjectApp-gosharpProjectAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,6 +154,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				F17E16B82BA42F34001C057F /* Fonts */,
 				13B07FAE1A68108700A75B9A /* gosharpProjectApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* gosharpProjectAppTests */,
@@ -140,12 +179,38 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-gosharpProjectApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-gosharpProjectApp.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-gosharpProjectApp-gosharpProjectAppTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-gosharpProjectApp-gosharpProjectAppTests.release.xcconfig */,
+				5272BBA09EFB8194FB2925D6 /* Pods-gosharpProjectApp.debug.xcconfig */,
+				E41D4E98C20D8B3C720778EA /* Pods-gosharpProjectApp.release.xcconfig */,
+				A949153B0E011CCD11CCFB56 /* Pods-gosharpProjectApp-gosharpProjectAppTests.debug.xcconfig */,
+				3511AB87D51AB06F95DE50A7 /* Pods-gosharpProjectApp-gosharpProjectAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F17E16B82BA42F34001C057F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F17E16CB2BA42F5E001C057F /* AntDesign.ttf */,
+				F17E16C42BA42F5E001C057F /* Entypo.ttf */,
+				F17E16C52BA42F5E001C057F /* EvilIcons.ttf */,
+				F17E16C32BA42F5E001C057F /* Feather.ttf */,
+				F17E16C82BA42F5E001C057F /* FontAwesome.ttf */,
+				F17E16C92BA42F5E001C057F /* FontAwesome5_Brands.ttf */,
+				F17E16C02BA42F5E001C057F /* FontAwesome5_Regular.ttf */,
+				F17E16BA2BA42F5E001C057F /* FontAwesome5_Solid.ttf */,
+				F17E16BB2BA42F5E001C057F /* FontAwesome6_Brands.ttf */,
+				F17E16B92BA42F5E001C057F /* FontAwesome6_Regular.ttf */,
+				F17E16BC2BA42F5E001C057F /* FontAwesome6_Solid.ttf */,
+				F17E16CA2BA42F5E001C057F /* Fontisto.ttf */,
+				F17E16C12BA42F5E001C057F /* Foundation.ttf */,
+				F17E16BD2BA42F5E001C057F /* Ionicons.ttf */,
+				F17E16C22BA42F5E001C057F /* MaterialCommunityIcons.ttf */,
+				F17E16BF2BA42F5E001C057F /* MaterialIcons.ttf */,
+				F17E16C62BA42F5E001C057F /* Octicons.ttf */,
+				F17E16C72BA42F5E001C057F /* SimpleLineIcons.ttf */,
+				F17E16BE2BA42F5E001C057F /* Zocial.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,12 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "gosharpProjectAppTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				EFEB5C6B89D4B50B3EF84047 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				AE2166ADA861862901C50FD5 /* [CP] Embed Pods Frameworks */,
+				660EDA2B45ABF4B1B7454866 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,13 +241,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "gosharpProjectApp" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				F436561CEF4F990C9A10928B /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				D489A10B4B06E0BA465AF20F /* [CP] Embed Pods Frameworks */,
+				356F39C4359EEDFAFB3D2569 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,8 +306,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17E16D12BA42F5E001C057F /* Zocial.ttf in Resources */,
+				F17E16D72BA42F5E001C057F /* Entypo.ttf in Resources */,
+				F17E16DD2BA42F5E001C057F /* Fontisto.ttf in Resources */,
+				F17E16CE2BA42F5E001C057F /* FontAwesome6_Brands.ttf in Resources */,
+				F17E16D32BA42F5E001C057F /* FontAwesome5_Regular.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				F17E16DB2BA42F5E001C057F /* FontAwesome.ttf in Resources */,
+				F17E16DC2BA42F5E001C057F /* FontAwesome5_Brands.ttf in Resources */,
+				F17E16CD2BA42F5E001C057F /* FontAwesome5_Solid.ttf in Resources */,
+				F17E16DE2BA42F5E001C057F /* AntDesign.ttf in Resources */,
+				F17E16D42BA42F5E001C057F /* Foundation.ttf in Resources */,
+				F17E16D02BA42F5E001C057F /* Ionicons.ttf in Resources */,
+				F17E16D22BA42F5E001C057F /* MaterialIcons.ttf in Resources */,
+				F17E16DA2BA42F5E001C057F /* SimpleLineIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F17E16D92BA42F5E001C057F /* Octicons.ttf in Resources */,
+				F17E16D62BA42F5E001C057F /* Feather.ttf in Resources */,
+				F17E16CF2BA42F5E001C057F /* FontAwesome6_Solid.ttf in Resources */,
+				F17E16D52BA42F5E001C057F /* MaterialCommunityIcons.ttf in Resources */,
+				F17E16D82BA42F5E001C057F /* EvilIcons.ttf in Resources */,
+				F17E16CC2BA42F5E001C057F /* FontAwesome6_Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +349,58 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		356F39C4359EEDFAFB3D2569 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp/Pods-gosharpProjectApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp/Pods-gosharpProjectApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp/Pods-gosharpProjectApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		660EDA2B45ABF4B1B7454866 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE2166ADA861862901C50FD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D489A10B4B06E0BA465AF20F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,7 +417,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp/Pods-gosharpProjectApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+		EFEB5C6B89D4B50B3EF84047 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,7 +439,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		F436561CEF4F990C9A10928B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,57 +459,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp/Pods-gosharpProjectApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp/Pods-gosharpProjectApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp/Pods-gosharpProjectApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gosharpProjectApp-gosharpProjectAppTests/Pods-gosharpProjectApp-gosharpProjectAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -410,7 +494,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-gosharpProjectApp-gosharpProjectAppTests.debug.xcconfig */;
+			baseConfigurationReference = A949153B0E011CCD11CCFB56 /* Pods-gosharpProjectApp-gosharpProjectAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -437,7 +521,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-gosharpProjectApp-gosharpProjectAppTests.release.xcconfig */;
+			baseConfigurationReference = 3511AB87D51AB06F95DE50A7 /* Pods-gosharpProjectApp-gosharpProjectAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -461,11 +545,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-gosharpProjectApp.debug.xcconfig */;
+			baseConfigurationReference = 5272BBA09EFB8194FB2925D6 /* Pods-gosharpProjectApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55GJ86TR7K;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = gosharpProjectApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,11 +573,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-gosharpProjectApp.release.xcconfig */;
+			baseConfigurationReference = E41D4E98C20D8B3C720778EA /* Pods-gosharpProjectApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55GJ86TR7K;
 				INFOPLIST_FILE = gosharpProjectApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
