@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { Platform, StyleSheet, Text, View } from 'react-native'
 import { Toolbar } from '../components/Toolbar';
 import { TextInput } from 'react-native-gesture-handler';
 import Button from '../components/Button';
@@ -81,7 +81,8 @@ const styles = StyleSheet.create({
     },
     input: {
         backgroundColor: "#daffda",
-        padding: 20,
+        padding: Platform.OS == "android" ? 10 : 20,
+        paddingHorizontal: 20,
         borderRadius: 15,
         height: 50,
         marginBottom: 15

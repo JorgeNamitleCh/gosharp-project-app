@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Text, View, TextInput, StyleSheet } from 'react-native'
+import { Text, View, TextInput, StyleSheet, Platform } from 'react-native'
 import { useForm } from '../hooks/useForm';
 import Button from '../components/Button';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
@@ -59,7 +59,8 @@ export const HomeScreen = () => {
                     placeholderTextColor={'#000000'}
                     onChangeText={(value) => onChange(value, 'info')}
                     defaultValue={form.info}
-                    multiline={true}
+                    numberOfLines={5}
+                    //multiline={true}
                 />
             </View>
             <Button
@@ -81,7 +82,8 @@ const styles = StyleSheet.create({
     },
     input: {
         backgroundColor: '#daffda',
-        padding: 20,
+        padding: Platform.OS == "android" ? 5 : 20,
+        paddingHorizontal: 20,
         borderRadius: 15,
         height: 50,
         marginBottom: 15

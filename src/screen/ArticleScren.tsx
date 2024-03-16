@@ -25,7 +25,7 @@ export const ArticleScren = () => {
                         title='' 
                         icon="trash-outline" 
                         onPress={() => handlerRemoveArticleId({id: article.id})} 
-                        style={{ backgroundColor: "#FF6868", height: 50, width: 50, borderRadius:50 }} 
+                        style={{ backgroundColor: "#FF6868", height: 60, width: 60, borderRadius:50 }} 
                         textStyle={{}} />
                 </View>
             </View>
@@ -34,7 +34,7 @@ export const ArticleScren = () => {
 
     return (
         <View style={styles.conteiner}>
-            <Text style={{ marginVertical: 20, fontSize: 20, fontWeight: "bold" }}>Lista de prodcutos { articles.length }</Text>
+            <Text style={{ marginVertical: 20, fontSize: 20, fontWeight: "bold" }}>Lista de Productos { articles.length }</Text>
             {
                 articles.length > 0 &&
                 < FlatList
