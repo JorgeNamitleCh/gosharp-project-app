@@ -7,6 +7,7 @@ import { useNavigation } from '@react-navigation/native';
 import { useAppDispatch, useAppSelector } from '../store/hooks';
 import { loginFailure, loginSuccess } from '../store/slices/auth.slice';
 import { setStoreData } from '../utils/localStorage';
+import { useShowToast } from '../hooks/useToast';
 
 
 export const LoginScreen = () => {
@@ -14,7 +15,7 @@ export const LoginScreen = () => {
     const [username, setUsername] = useState("hugo.flores@go-sharp.com");
     const [password, setPassword] = useState("123456");
     const navigation = useNavigation();
-
+    const { showToast } = useShowToast();
     const dispatch = useAppDispatch();
     const { user, error, isLoggedIn }  = useAppSelector((state) => state.AuthReducer);
 
@@ -26,8 +27,10 @@ export const LoginScreen = () => {
         if (username === 'hugo.flores@go-sharp.com' && password === '123456') {
             dispatch(loginSuccess({ username, password }));
             setStoreData('token', { username, password });
+            showToast('success','bienvenido');
             isLoggedIn && navigation.navigate("TabsBottomNavigation");
         } else {
+            showToast('danger','Usuario y contraeña incorrectos');
             dispatch(loginFailure('Invalid username or password'));
         }
     }
