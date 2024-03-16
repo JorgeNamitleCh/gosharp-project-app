@@ -17,8 +17,6 @@ export const getStorageData = async (key: string) => {
     }
 };
 
-
-
 export const clearAll = async () => {
     try {
         await AsyncStorage.clear()

@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
-import { Text, View, TextInput, StyleSheet, Platform } from 'react-native'
+import { View, TextInput, StyleSheet, Platform } from 'react-native'
 import { useForm } from '../hooks/useForm';
 import Button from '../components/Button';
-import { useAppDispatch, useAppSelector } from '../store/hooks';
-import { ArticleAddState, addToArticle } from '../store/slices/article.slice';
+import { useAppDispatch } from '../store/hooks';
+import { addToArticle } from '../store/slices/article.slice';
 import { useShowToast } from '../hooks/useToast';
 
 
@@ -14,14 +14,12 @@ const initialForm = {
 export const HomeScreen = () => {
 
     const dispatch = useAppDispatch();
-
     const { onChange, form, setState } = useForm(initialForm);
     const { showToast } = useShowToast()
 
     useEffect(() => {
       console.log(form)
     }, [form])
-    
 
     const handlerAddArticle = () => {
         if (form.name != '' && form.info != '') {
