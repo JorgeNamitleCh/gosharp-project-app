@@ -1,15 +1,16 @@
 import React from "react";
 import { TouchableOpacity, Text, StyleSheet, ActivityIndicator, GestureResponderEvent, StyleProp, ViewStyle, TextStyle } from "react-native";
-
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 interface Props {
-    onPress:  ((event: GestureResponderEvent) => void),
+    onPress: ((event: GestureResponderEvent) => void),
     title: string,
     style: StyleProp<ViewStyle>,
     textStyle: StyleProp<TextStyle>,
     disabled?: boolean,
     activeOpacity?: number,
-    loading: boolean,
+    loading?: boolean,
+    icon?: string
 }
 const Button = ({
     onPress,
@@ -17,9 +18,10 @@ const Button = ({
     style,
     textStyle,
     disabled = false,
-    activeOpacity = .8 ,
-    loading,
-}: Props ) => {
+    activeOpacity = .8,
+    loading = false,
+    icon = ""
+}: Props) => {
     return (
         <TouchableOpacity
             onPress={onPress}
@@ -31,7 +33,13 @@ const Button = ({
             {loading ? (
                 <ActivityIndicator color="white" />
             ) : (
-                <Text style={[styles.buttonText, textStyle]}>{title}</Text>
+                <>
+                    <Text style={[styles.buttonText, textStyle]}>{title}</Text>
+                    {
+                        icon != "" &&
+                        <Ionicons name={icon} size={15} color={"#fff"} />
+                    }
+                </>
             )}
 
         </TouchableOpacity>

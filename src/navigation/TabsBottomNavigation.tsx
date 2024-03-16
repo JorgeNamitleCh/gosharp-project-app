@@ -21,7 +21,8 @@ export const TabsBottomNavigation = () => {
                     
                     else if (route.name === 'ProfileScreen') 
                         iconName = "accessibility";
-
+                    else if (route.name === "HomeScreen")
+                        iconName = "home";
                     // You can return any component that you like here!
                     return <Ionicons name={iconName!} size={size} color={color} />;
                 },
@@ -29,8 +30,9 @@ export const TabsBottomNavigation = () => {
                 tabBarInactiveTintColor: 'gray',
             })}
         >
-            <Tab.Screen name="ArticleScren" component={ArticleScren} />
-            <Tab.Screen name="ProfileScreen" component={ProfileScreen} />
+            <Tab.Screen name="HomeScreen" component={HomeScreen} options={{ title:"Inicio"}}/>
+            <Tab.Screen name="ArticleScren" component={ArticleScren} options={{ title:"Artículos"}} />
+            <Tab.Screen name="ProfileScreen" component={ProfileScreen} options={{ title:"Perfil"}} />
         </Tab.Navigator>
     );
 }

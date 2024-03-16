@@ -1,29 +1,49 @@
-import React, { useState } from 'react'
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import React, { useEffect, useState } from 'react'
+import { StyleSheet, Text, View } from 'react-native'
 import { Toolbar } from '../components/Toolbar';
 import { TextInput } from 'react-native-gesture-handler';
 import Button from '../components/Button';
 import { useNavigation } from '@react-navigation/native';
+import { useAppDispatch, useAppSelector } from '../store/hooks';
+import { loginFailure, loginSuccess } from '../store/slices/auth.slice';
+import { setStoreData } from '../utils/localStorage';
+
 
 export const LoginScreen = () => {
 
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
-
+    const [username, setUsername] = useState("hugo.flores@go-sharp.com");
+    const [password, setPassword] = useState("123456");
     const navigation = useNavigation();
+
+    const dispatch = useAppDispatch();
+    const { user, error, isLoggedIn }  = useAppSelector((state) => state.AuthReducer);
+
+    useEffect(() => {
+        console.log("session: ", user);
+    }, [user])
+    
+    const handlerLogin = () => {
+        if (username === 'hugo.flores@go-sharp.com' && password === '123456') {
+            dispatch(loginSuccess({ username, password }));
+            setStoreData('token', { username, password });
+            isLoggedIn && navigation.navigate("TabsBottomNavigation");
+        } else {
+            dispatch(loginFailure('Invalid username or password'));
+        }
+    }
 
     return (
         <View style={styles.conteiner}>
             <Toolbar titleScreen='Login' />
-            <View style={{ flex: 3, justifyContent: "center",  }}>
+            <View style={{ flex: 3, justifyContent: "center", }}>
                 <View style={styles.form}>
                     <TextInput
                         style={{ ...styles.input }}
                         placeholder="Email"
                         keyboardType="email-address"
                         placeholderTextColor={"#000000"}
-                        onChangeText={newText => setEmail(newText)}
-                        defaultValue={email}
+                        onChangeText={newText => setUsername(newText)}
+                        defaultValue={username}
                     />
                     <TextInput
                         style={{ ...styles.input }}
@@ -39,7 +59,7 @@ export const LoginScreen = () => {
                         loading={false}
                         style={{}}
                         textStyle={{}}
-                        onPress={ () => navigation.navigate("TabsBottomNavigation") }
+                        onPress={() => handlerLogin()}
                     />
                 </View>
             </View>
